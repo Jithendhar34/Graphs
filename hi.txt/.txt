@@ -1,0 +1,16 @@
+
+    public boolean addVertex(String vertex){
+        if(adjList.get(vertex) == null){
+            // if vertex is null then create a new arraylist for vertex;
+
+            adjList.put(vertex,new ArrayList<String>());
+            return true;
+        }
+        return false;
+    }
+
+
+
+      myGraph.addVertex("A");
+        myGraph.addVertex("B");
+        
