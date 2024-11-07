@@ -1,0 +1,15 @@
+git init
+
+git add first.java
+
+git commit -m " first commit"
+
+git remote add origin 
+
+
+
+ git commit -m " scond one" 
+
+ git push -u origin master
+
+ git status
